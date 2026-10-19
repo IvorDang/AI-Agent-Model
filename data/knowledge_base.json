@@ -1,0 +1,57 @@
+[
+  {
+    "source": "lecture_kg_rag.txt",
+    "topic": "Knowledge Graph",
+    "text": "A Knowledge Graph represents entities as nodes and semantic relationships as edges. Knowledge can be represented as triples (subject, relation, object). Example: (CNN, used_for, Image Classification). Graph retrieval follows explicit relationships."
+  },
+  {
+    "source": "lecture_kg_rag.txt",
+    "topic": "RAG",
+    "text": "Retrieval-Augmented Generation combines retrieval, context construction, and language generation. A basic RAG pipeline splits documents into chunks, creates embeddings, retrieves relevant chunks for a query, and passes evidence to a language model."
+  },
+  {
+    "source": "lecture_kg_rag.txt",
+    "topic": "Embeddings",
+    "text": "An embedding model maps text into a vector. Semantic retrieval compares a query vector with document vectors, often using cosine similarity, and selects the top-k most relevant chunks."
+  },
+  {
+    "source": "lecture_kg_rag.txt",
+    "topic": "Chunking",
+    "text": "Document chunking splits long documents into smaller text units. Overlap between adjacent chunks can preserve context when a sentence or concept crosses a chunk boundary. Store metadata such as source, page, and topic."
+  },
+  {
+    "source": "lecture_kg_rag.txt",
+    "topic": "Hallucination",
+    "text": "Retrieval-augmented generation can reduce unsupported answers by grounding generation in retrieved evidence, but it does not guarantee zero hallucination. If evidence is missing, the system should say that the knowledge base does not contain enough information."
+  },
+  {
+    "source": "lecture_kg_rag.txt",
+    "topic": "Evaluation",
+    "text": "Evaluate retrieval quality using Recall@k and evaluate answers for correctness, relevance, completeness, groundedness, and evidence quality. Also inspect failure modes such as poor retrieval, generation errors, and knowledge gaps."
+  },
+  {
+    "source": "lecture_agent.txt",
+    "topic": "Deep Learning",
+    "text": "Deep Learning learns representations and predictive functions from data. For images, a CNN may predict a class; for sequential data, an RNN or LSTM may predict a future value. A prediction model alone does not automatically answer open-ended questions."
+  },
+  {
+    "source": "lecture_agent.txt",
+    "topic": "Intelligent Agent",
+    "text": "An intelligent agent coordinates reasoning, memory, tools, knowledge, and planning to achieve a user goal. A simplified loop is Observe, Reason, Plan, Act, Observe. Tools can include a calculator, database query, Knowledge Graph query, RAG retrieval, or a machine-learning model."
+  },
+  {
+    "source": "lecture_agent.txt",
+    "topic": "System Architecture",
+    "text": "A modern intelligent system combines Deep Learning for learned patterns, Knowledge Graphs for explicit relationships, RAG for external information retrieval, LLMs for language understanding and generation, and agents for planning, tool use, memory, and action."
+  },
+  {
+    "source": "lecture_agent.txt",
+    "topic": "GraphRAG",
+    "text": "GraphRAG uses graph structure during retrieval. A practical workflow may include document loading, chunking, entity and relationship extraction, graph construction, embedding generation, graph/vector retrieval, context construction, and generation."
+  },
+  {
+    "source": "lecture_agent.txt",
+    "topic": "University Assistant",
+    "text": "A university assistant may store course information, lecturers, curriculum, prerequisites, regulations, and lecture documents. A graph represents relationships such as Course requires Prerequisite and Course taught_by Lecturer; RAG retrieves explanations from documents."
+  }
+]

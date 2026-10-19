@@ -1,0 +1,6 @@
+question,expected_source,expected_topic
+What is a Knowledge Graph?,lecture_kg_rag.txt,Knowledge Graph
+How does RAG work?,lecture_kg_rag.txt,RAG
+Why use chunk overlap?,lecture_kg_rag.txt,Chunking
+Does RAG eliminate hallucination?,lecture_kg_rag.txt,Hallucination
+What does an intelligent agent do?,lecture_agent.txt,Intelligent Agent

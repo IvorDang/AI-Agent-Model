@@ -1,0 +1,97 @@
+[
+  {
+    "subject": "CNN",
+    "relation": "is_a",
+    "object": "Deep Learning Model"
+  },
+  {
+    "subject": "CNN",
+    "relation": "used_for",
+    "object": "Image Classification"
+  },
+  {
+    "subject": "RNN",
+    "relation": "is_a",
+    "object": "Deep Learning Model"
+  },
+  {
+    "subject": "RNN",
+    "relation": "used_for",
+    "object": "Sequential Data"
+  },
+  {
+    "subject": "LSTM",
+    "relation": "is_a",
+    "object": "Recurrent Model"
+  },
+  {
+    "subject": "LSTM",
+    "relation": "used_for",
+    "object": "Time Series"
+  },
+  {
+    "subject": "RAG",
+    "relation": "uses",
+    "object": "Vector Retrieval"
+  },
+  {
+    "subject": "RAG",
+    "relation": "uses",
+    "object": "LLM"
+  },
+  {
+    "subject": "RAG",
+    "relation": "supports",
+    "object": "Chatbot"
+  },
+  {
+    "subject": "Knowledge Graph",
+    "relation": "represents",
+    "object": "Entities"
+  },
+  {
+    "subject": "Knowledge Graph",
+    "relation": "represents",
+    "object": "Relations"
+  },
+  {
+    "subject": "Intelligent Agent",
+    "relation": "uses",
+    "object": "Tools"
+  },
+  {
+    "subject": "Intelligent Agent",
+    "relation": "uses",
+    "object": "Memory"
+  },
+  {
+    "subject": "Intelligent Agent",
+    "relation": "coordinates",
+    "object": "RAG"
+  },
+  {
+    "subject": "Intelligent Agent",
+    "relation": "coordinates",
+    "object": "Knowledge Graph"
+  },
+  {
+    "subject": "Machine Learning",
+    "relation": "requires",
+    "object": "Data"
+  },
+  {
+    "subject": "Deep Learning",
+    "relation": "is_a",
+    "object": "Machine Learning"
+  },
+  {
+    "subject": "Course",
+    "relation": "has",
+    "object": "Prerequisite"
+  },
+  {
+    "subject": "Course",
+    "relation": "taught_by",
+    "object": "Lecturer"
+  }
+]
